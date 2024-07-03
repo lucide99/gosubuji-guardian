@@ -7,7 +7,7 @@
 학습을 위한 데이터 소스는 ai-hub의 'TS_03.이상행동_12.절도.zip(26.65GB)'영상을 사용했습니다. 
 * https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=71550
 ### 데이터 전처리
-절도 영상을 
+절도 영상을 normal 부분과 abnormal 부분 영상을 10초 단위로 자른 후 프레임 조정 하여 train data 와 validation data 로 분리
 ### 향후 튜닝요소
 * 학습한 영상은 물건을 집으면 바로 주머니나 가방에 넣기 때문에, 물건을 집었다가 내려놓는 케이스를 '도난'으로 처리함
     * 향후 학습 영상 촬영시 집었다가 놓는 케이스를 별도로 넣을 필요가 있음 
